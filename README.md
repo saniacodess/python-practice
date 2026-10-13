@@ -1,0 +1,1 @@
+I stored tables from 2 to 20 in files using function and for loop
