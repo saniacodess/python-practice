@@ -1,0 +1,30 @@
+# Multiple if statements
+# if_elif_else ladder
+
+a = int(input("Enter your age : "))
+
+# If statement 1:
+
+if(a%2==0):
+    print("age is even")
+
+# end of if statement 1
+#start of if statement 2:
+
+if(a>=18):
+    print("Welcome! You are of right age.")
+
+elif(a<0):
+    print("Invalid! This age doesn't exist.")
+
+elif(a==0):
+    print("Invalid age!")
+else:
+    print("Sorry! You are underage!")
+
+# end of if statement 2
+# --- Note ---
+# If statement can be written alone
+# else and elif can't be written without any if statement it will result in an error
+
+    

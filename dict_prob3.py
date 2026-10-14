@@ -1,0 +1,15 @@
+d = {}
+friends = input("Enter friends name : ")
+lang = input("Enter language name : ")
+d.update({friends : lang})
+friends = input("Enter friends name : ")
+lang = input("Enter language name : ")
+d.update({friends : lang})
+friends = input("Enter friends name : ")
+lang = input("Enter language name : ")
+d.update({friends : lang})
+friends = input("Enter friends name : ")
+lang = input("Enter language name : ")
+d.update({friends : lang})
+
+print(d)
